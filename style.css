@@ -1,7 +1,36 @@
 /*
-Color Palette:
-background color:  
-font color:        
-secondary color:   
-tertiary color:    
+Color Palette: 
+background color: #000000 
+font color: ##E6B325
+secondary color: ##F9F9F9 
+tertiary color: #F9F9F9  
+font : font-family: 'Open Sans', sans-serif semi-bold 600
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+html {
+    font-size : 62.5%;      /*Defualt font size is 16x - 62.5% of 16 is 10x 
+                             1 rem (relative unit) now will be equivalent to 10px} */
+}
+
+header {
+    margin: 0 4rem;
+    letter-spacing: 0.8rem;
+    text-align: center;
+    border-bottom: 1px solid ##F9F9F9 ;
+    border-right: 1px solid ##F9F9F9 ;
+    border-left: 1px solid ##F9F9F9 ;
+    padding: 0.5rem;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.4);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    
+}
+body {
+    background-color: #000000;
+    color: #E6B325;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0; 
+    
+    
